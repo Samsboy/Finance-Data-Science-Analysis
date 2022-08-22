@@ -7,7 +7,7 @@ import numpy as np
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
 
-stock_df = pd.read_csv('C:\\Users\\user\\Desktop\\睿澤的資料\\Python\\TW_stocks.csv')
+stock_df = pd.read_csv('C:\\Users\\user\\Desktop\\my data\\Python\\TW_stocks.csv')
 
 stock_df = stock_df.sort_values('Date')
 
